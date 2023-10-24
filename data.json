@@ -1,0 +1,55 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "Market",
+    "withoutRowId": false,
+    "strict": false,
+    "ddl": "CREATE TABLE Market (id INTEGER PRIMARY KEY, name TEXT, pictureURL TEXT);",
+    "columns": [
+        {
+            "name": "id",
+            "type": "INTEGER",
+            "constraints": [
+                {
+                    "type": "PRIMARY KEY",
+                    "definition": "PRIMARY KEY"
+                }
+            ]
+        },
+        {
+            "name": "name",
+            "type": "TEXT"
+        },
+        {
+            "name": "pictureURL",
+            "type": "TEXT"
+        }
+    ],
+    "rows": [
+        [
+            0,
+            "amethyst",
+            "https:\/\/www.alltime.ru\/obj\/article\/image-blog\/ametist\/ametist_1.jpg"
+        ],
+        [
+            1,
+            "malachite",
+            "https:\/\/www.alltime.ru\/obj\/article\/image-blog\/malahit\/malahit_1.jpg"
+        ],
+        [
+            2,
+            "amber",
+            "https:\/\/www.alltime.ru\/obj\/article\/image-blog\/amber_kamen\/amber_kamen_1.jpg"
+        ],
+        [
+            3,
+            "fluorite",
+            "https:\/\/sunlight.net\/wiki\/wp-content\/uploads\/2017\/07\/flyuorit-gem.jpg"
+        ],
+        [
+            4,
+            "ruby",
+            "https:\/\/www.alltime.ru\/obj\/article\/image-blog\/rubin\/rubin_3.jpg"
+        ]
+    ]
+}

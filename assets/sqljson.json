@@ -1,0 +1,36 @@
+{
+    "type": "database",
+    "name": "Data",
+    "objects": [
+        {
+            "type": "table",
+            "database": null,
+            "name": "Market",
+            "withoutRowId": false,
+            "strict": false,
+            "ddl": "CREATE TABLE Market (id INTEGER PRIMARY KEY, name TEXT, pictureURL TEXT)",
+            "columns": [
+                {
+                    "name": "id",
+                    "type": "INTEGER",
+                    "constraints": [
+                        {
+                            "type": "PRIMARY KEY",
+                            "definition": "PRIMARY KEY"
+                        }
+                    ]
+                },
+                {
+                    "name": "name",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "pictureURL",
+                    "type": "TEXT"
+                }
+            ],
+            "rows": [
+            ]
+        }
+    ]
+}
